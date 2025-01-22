@@ -31,7 +31,7 @@ document.querySelectorAll(".card").forEach(card => {
   
   function typeWriter() {
     if (index < heroText.length) {
-      document.querySelector(".hero h1").textContent += heroText.charAt(index);
+      document.querySelectgor(".hero h1").textContent += heroText.charAt(index);
       index++;
       setTimeout(typeWriter, 100);
     }
